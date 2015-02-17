@@ -5,8 +5,8 @@ Created on Wed Jan 28 10:12:54 2015
 @author: olejrogeberg
 """
 
-from user import User
-from states import State, NoTreatment, DrugFreeTreatment, OMT
+from User import User
+from States import State, NoTreatment, DrugFreeTreatment, OMT
 
 def pytest_funcarg__valid_user(request):
     return User(17,7)
